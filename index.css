@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin: auto;
+    background-color: beige;
+ }
+
+header {
+	margin: center;
+	height: 60px center;
+	background-color: black;
+	color: beige;
+	font-size: 20px;
+}
+
+/*fieldset reset*/ 
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin: auto;
+}
+
+.stats {
+	/*border: 1px solid red;*/
+	display: inline-block;
+}
+
+.question-answer {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+    max-width: 250px;
+    height: 300px;
+}
+
+.result-view {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    max-width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.new-question {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quiz-stats {
+    margin: auto;
+    width: 50%;
+ /*   border: 2px solid black;*/
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.question-line {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.button-container {
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+
+.quiz-stats {
+ 	position: relative;
+}
+
+.question-number {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 200px;
+}
+
+.quiz-score {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    text-align: right;
+}
+
+.start-view {
+    margin: auto;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+  	margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: beige;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px;
+  max-width: 250px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Anton', sans-serif;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+

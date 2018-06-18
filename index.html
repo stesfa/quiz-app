@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Philosophy Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+
+	<header role="banner">
+		<h1>Philosophy Quiz</h1> 
+	</header>
+
+	<main role="main">
+
+		<div class='body'>
+
+			<div class='quiz-stats' role='quiz-statistics'>
+				<div class='question-number stats'>Question <span class='number'>1</span>/5</div>
+				<div class='quiz-score stats'>Score: <span class='score'>0</span></div>
+			</div>
+
+			<div class='start-view container' role='introduction'>
+			  <h2>Welcome! Let's test your philosophy skills. Click start to begin quiz.</h2> 
+			  <button type='button' class='start-button' role='button'><span>Start</span></button>
+			</div>
+			
+			<div class='question-answer container'></div>
+			
+			<div class='result-view container'>
+				<div class='result-message'></div>
+				<div class='next-question'>
+		    		<button type='button' class='new-question' role='button'><span>Next</span></button>
+		  		</div>
+			</div>
+
+			<div class='summary-view container'>
+				<div class='summary-view-message'></div>
+				<div class='restart'>
+		    		<button type='button' class='restart-quiz' role='button'><span>Resart </span></button>
+		  		</div>
+		  	</div>
+
+		</div>
+
+	</main>
+
+</body>
+
+</html>
